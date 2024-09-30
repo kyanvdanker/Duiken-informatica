@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <link rel="Stylesheet" type="text/css" href="Styles.css">
+</head>
+<body>
+    <div id="background">
+        <div class="head">
+            <a href="Duiken.html">Home</a>
+            <a href="Verslag.php">Verslag</a>
+            <a href="Database.php">Database</a>
+            <a href="Verslagtoevoegen.php">Schrijven</a>
+            <a class="active" href="Kanban.html">Kanban</a>
+        </div>
+        &nbsp;
+        <div class="start">
+            <h1 style="text-align: left; margin-top: 100px;">Duik meter</h1>
+        </div>
+        <div class="Kanban">
+            <h2>Kanban</h2>
+        </div>
+        <div class="board">
+            <div class="column" id="todo" ondrop="drop(event, 'todo')" 
+                ondragover="allowDrop(event)">
+                <h2>Todo</h2>
+                <hr>
+                <div class="tasks-in-btn">
+                    <input type="text" id="taskInput" class="task-input" 
+                        placeholder="Enter a task..."
+                        oninput="capitalizeInput(this)">
+                    <button class="add-task-btn" onclick="addTask('todo')">
+                        Add Task
+                    </button>
+                </div>
+                <div class="task-container"></div>
+            </div>
+    
+            <div class="column" id="in-progress" 
+                ondrop="drop(event, 'in-progress')" 
+                ondragover="allowDrop(event)">
+                <h2>In Progress</h2>
+                <hr>
+                <div class="task-container"></div>
+            </div>
+            <div class="column" id="done" 
+                ondrop="drop(event, 'done')" 
+                ondragover="allowDrop(event)">
+                <h2>Done</h2>
+                <hr>
+                <div class="task-container"></div>
+            </div>
+        </div>
+    </div>
+    <script src="Kanban.js"></script>
+</body>

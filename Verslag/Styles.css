@@ -1,0 +1,167 @@
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70pt;
+    text-align: center;
+    color: white;
+    text-align: left;
+}
+
+h2 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30pt;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding: 8px;
+    background-color: 222222;
+    color: white;
+}
+
+a:hover {
+    background-color: lightgray;
+}
+
+.active {
+    background-color: 7234fa;
+}
+
+table{
+    border-color: black;
+    width: 100%;
+    
+}
+
+tr:nth-child(1) {
+    color: black;
+    background-color: white;
+}
+
+td, th {
+    padding: 8px;
+}
+
+tr {
+    text-align: left;
+}
+
+.search {
+    color: lightblue;
+    display: inline-block;
+    border: 3px !important;  
+    padding: 8px;
+    outline: none;
+    text-align: center;
+}
+
+.results {
+    border: none;
+    width: 100%;
+}
+
+.data {
+    border-collapse: collapse;
+    color: white;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .success {
+    border-color: lightblue;
+    color: lightblue;
+  }
+  
+  .success:hover {
+    background-color: lightblue;
+    color: white;
+  }
+
+  .input {
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+
+.toevoegen {
+    border-collapse: collapse;
+}
+
+label {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    width: 75%;
+}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+.start {
+    position: relative;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    z-index: 1;
+    margin-bottom: 400px;
+}
+
+.start::before {
+    content: '';
+    position: absolute;
+    top: 50;
+    left: 0;
+    background-image: url(Duiker.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    filter: brightness(50%); 
+    z-index: -1; 
+    opacity: 1;    
+}
+
+
+.head::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 600px;
+    z-index: -1; 
+    opacity: 1; 
+}
+
+.head {
+    position: relative;
+    color: black;
+    z-index: 1;
+}
+
+.verslag-head {
+    color: black;
+}
