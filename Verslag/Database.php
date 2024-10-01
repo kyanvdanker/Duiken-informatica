@@ -14,7 +14,7 @@
     </div>
         &nbsp;
         <div class="start"> 
-            <h1>Duik meter</h1>
+            <h1 style="text-align: left; margin-top: 100px;">Database</h1>
         </div>
         <center>
         <form class="search" target="searchResults" action="phpSearch.php" method="post">

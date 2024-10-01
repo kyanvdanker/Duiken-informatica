@@ -34,7 +34,7 @@ $result = $conn->query($sql);
     &nbsp;
         &nbsp;
     <div class="start">
-        <h1>Duik meter</h1>
+        <h1 style="text-align: left; margin-top: 100px;">Verslag</h1>
     </div>
     <center>
     <a class="btn padding success" href="verslagtoevoegen.php">Verslag toevoegen</a>

@@ -13,9 +13,8 @@
     </div>
         &nbsp;
         <div class="start">
-            <h1>Duik meter</h1>
+            <h1 style="text-align: left; margin-top: 100px;">Verslag toevoegen</h1>
         </div>
-        <h2>verslag schrijven</h2>
         <center>
         <form class="toevoegen" action="add_post.php" method="post">
             <label for="title">Titel</label><br>
