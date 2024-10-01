@@ -1,6 +1,7 @@
 <html>
 <head>
     <link rel="Stylesheet" type="text/css" href="Styles.css">
+    <meta charset="UTF-8">
 </head>
 <body>
     <div id="background">
@@ -10,6 +11,14 @@
             <a href="Database.php">Database</a>
             <a href="Verslagtoevoegen.php">Schrijven</a>
             <a class="active" href="Kanban.html">Kanban</a>
+            <div class="dropdown">
+                <a class="dropdown-width" href="Project.html">Project</a>
+                <div class="dropdown-content">
+                    <a class="dropdown-width" href="Project.html">Project</a>
+                    <a class="dropdown-width" href="Ontwerp.html">Ontwerp</a>
+                    <a class="dropdown-width" href="Concept.html">Concept</a>
+                </div>
+            </div>
         </div>
         &nbsp;
         <div class="start">
@@ -22,8 +31,7 @@
                 <hr>
                 <div class="tasks-in-btn">
                     <input type="text" id="taskInput" class="task-input" 
-                        placeholder="Enter a task..."
-                        oninput="capitalizeInput(this)">
+                        placeholder="Enter a task...">
                     <button class="add-task-btn" onclick="addTask('todo')">
                         Add Task
                     </button>

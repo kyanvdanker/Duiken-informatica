@@ -30,6 +30,14 @@ $result = $conn->query($sql);
         <a href="Database.php">Database</a>
         <a href="Verslagtoevoegen.php">Schrijven</a>
         <a href="Kanban.html">Kanban</a>
+        <div class="dropdown">
+                <a class="dropdown-width" href="Project.html">Project</a>
+                <div class="dropdown-content">
+                    <a class="dropdown-width" href="Project.html">Project</a>
+                    <a class="dropdown-width" href="Ontwerp.html">Ontwerp</a>
+                    <a class="dropdown-width" href="Concept.html">Concept</a>
+                </div>
+            </div>
     </div>
     &nbsp;
         &nbsp;
@@ -37,7 +45,6 @@ $result = $conn->query($sql);
         <h1 style="text-align: left; margin-top: 100px;">Verslag</h1>
     </div>
     <center>
-    <a class="btn padding success" href="verslagtoevoegen.php">Verslag toevoegen</a>
     <br><br>
 
     <?php

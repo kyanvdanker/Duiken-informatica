@@ -10,6 +10,14 @@
         <a href="Database.php">Database</a>
         <a class="active" href="Verslagtoevoegen.php">Schrijven</a>
         <a href="Kanban.html">Kanban</a>
+        <div class="dropdown">
+                <a class="dropdown-width" href="Project.html">Project</a>
+                <div class="dropdown-content">
+                    <a class="dropdown-width" href="Project.html">Project</a>
+                    <a class="dropdown-width" href="Ontwerp.html">Ontwerp</a>
+                    <a class="dropdown-width" href="Concept.html">Concept</a>
+                </div>
+            </div>
     </div>
         &nbsp;
         <div class="start">

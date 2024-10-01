@@ -1,0 +1,83 @@
+<html>
+<head>
+    <link rel="Stylesheet" type="text/css" href="Styles.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <div id="background">
+        <div class="head">
+            <a href="Duiken.html">Home</a>
+            <a href="Verslag.php">Verslag</a>
+            <a href="Database.php">Database</a>
+            <a href="Verslagtoevoegen.php">Schrijven</a>
+            <a href="Kanban.html">Kanban</a>
+            <div class="dropdown">
+                <a class="dropdown-width active" href="Project.html">Project</a>
+                <div class="dropdown-content">
+                    <a class="dropdown-width" href="Project.html">Project</a>
+                    <a class="dropdown-width" href="Ontwerp.html">Ontwerp</a>
+                    <a class="dropdown-width active" href="Concept.html">Concept</a>
+                </div>
+            </div>
+        </div>
+        &nbsp;
+        <div class="start">
+            <h1 style="text-align: left; margin-top: 100px;">Concept</h1>
+        </div>
+        <div id="Het eerste idee">
+            <h2>Het eerste idee</h2>
+            <p>
+                Het eerste idee waar ik aan dacht bij dit project was om een Arduino met een drukmeter te maken en deze data doorsturen naar mijn laptop. 
+                Ik zou zorgen dat deze waterdicht was en dat ik deze kon meenemen onderwater, 
+                maar ik liep al snel tegen problemen aan.
+                Radio frequenties werken over het algemeen niet onderwater. 
+                Ik zou dan een ULF, een hele lage frequentie, moeten gebruiken, maar dit is lastig om te kunnen creëren.
+                Ik zou ook accoustische singalen kunnen gebruiken.
+                Dit zou kunnen werken, maar het zou lastig zijn om een speaker en microfoon bruikbaar te maken in het water.
+                Ik moest dus een nieuw idee verzinnen
+            </p>
+        </div>
+        <div id="Het tweede idee">
+            <h2>Het tweede idee</h2>
+            <p>
+                Ik ging terug naar het begin en begon weer opnieuw na te denken. 
+                Nu was ik op het idee gekomen om het bekabel te doen.
+                Dit idee liet mij denken aan duikers die zuurstof van bovenwater krijgen
+                Het idee was om alleen de drukmeter mee onderwater te nemen en de Arduino zou ik bovenwater laten drijven.
+                Nu hoefde alleen de drukmeter waterdicht te zijn en zou ik de Arduino alleen moeten beschermen tegen spatwater.
+                Ook kon ik nu een radio frequentie gebruiken omdat dit nu bovenwater zou worden verzonden naar mijn laptop.
+                Mijn laptop zal het dan in een database zetten.
+                Dit zal het plan worden.
+            </p>
+        </div>
+        <div id="Problemen">
+            <h2>Problemen waar ik nog mee zat</h2>
+            <p>
+                Er waren nog twee problemen waar ik mee zat.
+                Wat voor kabel zou ik gaan gebruiken tussen de drukmeter en de Arduino? 
+                Hoe werken databaseses en hoe gebruik ik ze?
+                De kabel waarvoor ik heb gekozen is een 3 polige kabel waarvan de kern flexibel is.
+                Ik heb hiervoor gekozen omdat de kabel nu goed buigbaar blijft en omdat de drukmeter 1 singaal kabel nodig heeft.
+                Zelf had ik nog nooit databases gebruikt.
+                Ik wist wel wat ze deden, maar hoe ze werkten was voor mij nog de vraag.
+                Ik ben online gaan kijken hoe ik een databas zal kunnen starten en zag dat ik hier het best MySQL kan voor gebruiken.
+                Ik heb me toen hierin verdiept op Google en Youtube en heb hier kunnen vinden hoe ik een database kan starten en deze data weer in mijn website kan zetten.
+                Toen ik hier achter was gekomen dacht ik "Waarom gebruik ik niet een database om ook mijn verslag te maken.".
+                Dit vond ik een goed idee omdat ik hierdoor niet alle tekst in code op mijn website zou moeten zetten.
+                Dit heb ik daarom ook gedaan.
+                Nu waren mijn problemen opgelost
+            </p>
+        </div>
+        <div id="Het concept">
+            <h2>Het concept</h2>
+            <p>
+                Nu het idee in mijn hoofd zat moest ik dit alleen nog specifieker uitwerken.
+                De drukmeter zal in een omhulsel van PVC zitten met lood, zodat hij niet drijft of zinkt, en met een kabel van 10 meter.
+                Voor het prototype zal dit lang genoeg zijn en later kan ik altijd nog deze kabel langer maken.
+                Op het water zal een Arduino Nano drijven.
+                De Arduino Nano zal ook in een PVC buis zitten omdat dit zorgt voor de benodigde waterdichtheid en zorgt voor het drijfvermogen. 
+            </p>
+        </div>
+    </div>
+</body>
+</html>
