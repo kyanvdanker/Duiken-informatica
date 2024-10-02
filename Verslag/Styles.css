@@ -34,7 +34,7 @@ a:hover {
 }
 
 .active {
-    background-color: 7234fa;
+    border-bottom: rgb(0, 145, 255) solid 4px;
 }
 
 table{
@@ -128,7 +128,7 @@ label {
 .start::before {
     content: '';
     position: absolute;
-    top: 50;
+    top: 20;
     left: 0;
     background-image: url(Duiker.png);
     background-repeat: no-repeat;
@@ -200,16 +200,11 @@ label {
     background-color: #4caf50;
     border: none;
     color: white;
-    /* Adjust padding to make 
-    the button smaller */
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    /* Decrease font size */
     border-radius: 5px;
-    /* Adjust border radius 
-    for a softer look */
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -222,17 +217,14 @@ label {
 
 #todo .task {
     background-color: #b3e5fc;
-    /* Light blue */
 }
 
 #in-progress .task {
     background-color: #ffcdd2;
-    /* Light pink */
 }
 
 #done .task {
     background-color: #c8e6c9;
-    /* Light green */
 }
 
 .task {
